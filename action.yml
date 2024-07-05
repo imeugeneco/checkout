@@ -102,3 +102,5 @@ runs:
   using: node20
   main: dist/index.js
   post: dist/index.js
+  env:
+    ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
